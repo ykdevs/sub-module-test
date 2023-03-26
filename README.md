@@ -35,3 +35,12 @@ git submodule add git@github.com:ykdevs/sub-module1-test.git
         path = sub-module1
         url = git@github.com:ykdevs/sub-module1-test.git
 ```
+
+サブモジュールを含むプロジェクトをクローンする
+
+
+```shell
+git clone --recursive git@github.com:ykdevs/sub-module-test.git
+```
+                                                                                                       
+
